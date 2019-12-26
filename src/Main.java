@@ -6,7 +6,6 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class Main {
-
     public static void main(String[] args) {
         List<Food> breakfast = Arrays.stream(args).map(food -> {         
             String[] components = food.split("/");
